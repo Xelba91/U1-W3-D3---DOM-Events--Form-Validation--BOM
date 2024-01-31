@@ -65,6 +65,7 @@ h1 {
   position: relative;
 }
 .task {
+  user-select: none;
   background-color: #c5e1e6;
   height: 50px;
   margin-bottom: 8px;
