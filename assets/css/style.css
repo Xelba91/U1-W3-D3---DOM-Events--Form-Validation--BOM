@@ -1,0 +1,101 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: #151080;
+}
+h1 {
+  text-align: center;
+  font-family: "Sixtyfour";
+  color: #eae7e7;
+  padding: 25px;
+}
+
+.contenitore {
+  width: 50%;
+  min-width: 450px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background: white;
+  border-radius: 10px;
+}
+
+#nuovaTask {
+  position: relative;
+  padding: 30px 20px;
+}
+#nuovaTask input {
+  width: 75%;
+  height: 45px;
+  font-family: "Sixtyfour", sans-serif;
+  font-size: 15px;
+  border: 2px solid #d1d3d4;
+  padding: 12px;
+  color: #111111;
+  font-weight: 500;
+  position: relative;
+  border-radius: 5px;
+}
+
+#nuovaTask button {
+  position: relative;
+  float: right;
+  width: 20%;
+  height: 45px;
+  border-radius: 6px;
+  font-family: "Sixtyfour", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #00f4f4;
+  cursor: pointer;
+  outline: none;
+}
+#tasks {
+  background-color: #ffffff;
+  padding: 0px 20px;
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+}
+.task {
+  background-color: #c5e1e6;
+  height: 50px;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  align-items: center;
+  border: 1px solid #939697;
+  cursor: pointer;
+}
+.task span {
+  font-family: "Sixtyfour", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.task button {
+  background-color: #e41414;
+  font-size: 1em;
+  color: #ffffff;
+  height: 30px;
+  width: 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+}
+
+.task:last-child {
+  margin-bottom: 30px;
+}
+
+.completed {
+  text-decoration: line-through;
+}

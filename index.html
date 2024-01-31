@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- link style.css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- link font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <!-- link google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Lista della spesa</h1>
+    <!-- creo il div contenitore -->
+    <div class="contenitore">
+      <!-- creo il div per le nuove task -->
+      <div id="nuovaTask">
+        <form>
+          <!-- creo l'input con placeholder -->
+          <input type="text" placeholder="Aggiungi un prodotto" required />
+          <!-- creo bottone con id addButton -->
+          <button id="addButton">Crea</button>
+        </form>
+        <!-- fine div nuovaTask -->
+      </div>
+      <div id="tasks"></div>
+      <!-- fine div contenitore -->
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
